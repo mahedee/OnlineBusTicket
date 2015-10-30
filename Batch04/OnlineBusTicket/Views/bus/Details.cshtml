@@ -1,0 +1,50 @@
+﻿@model OnlineBusTicket.Models.Bus
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Bus</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.objCompany.companName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.objCompany.companName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.busNo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.busNo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.busCapacity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.busCapacity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.busStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.busStatus)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.busId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

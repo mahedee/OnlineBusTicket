@@ -9,6 +9,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin.Security;
 using OnlineBusTicket.Models;
+using System.Data.Entity;
 
 namespace OnlineBusTicket.Controllers
 {
@@ -16,7 +17,7 @@ namespace OnlineBusTicket.Controllers
     public class AccountController : Controller
     {
         public AccountController()
-            : this(new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(new ApplicationDbContext())))
+            : this(new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(new dbContext())))
         {
         }
 

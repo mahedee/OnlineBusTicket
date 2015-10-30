@@ -1,0 +1,65 @@
+@{
+    ViewBag.Title = "About";
+}
+<div class="breadcrumbs">
+    <div class="container">
+        <h1 class="pull-left">About me</h1>
+        <ul class="pull-right breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">Page</a></li>
+            <li class="active">About me</li>
+        </ul>
+    </div>
+</div><!--/breadcrumbs-->
+<!--=== End Breadcrumbs ===-->
+<!--=== About Me Img ===-->
+<div class="container content">
+
+
+    <!-- About Me -->
+    <div class="row about-my-goals margin-bottom-20">
+        <div class="col-md-4 md-margin-bottom-20">
+            <h2 class="heading-md">My <span class="color-green">achievements</span></h2>
+            <p>Donec bibendum vitae lacus vitae eleifend. Curabitur vitae turpis eget mi vulputate volutpat. Curabitur molestie magna non tellus viverra ornare. Etiam enim sapien, tristique et faucibus et, scelerisque id risus.</p>
+            <p>Sed quis tortor metus. Morbi fringilla in mi ac accumsan. Vestibulum in arcu turpis. Donec congue interdum eleifend.</p>
+            <a class="btn-u" href="#">View more</a>
+        </div>
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-sm-6 info-blocks">
+                    <i class="fa fa-bell-o icon-info-blocks"></i>
+                    <div class="info-blocks-in">
+                        <h3>New title comes here</h3>
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum animi..</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 info-blocks">
+                    <i class="fa fa-hdd-o icon-info-blocks"></i>
+                    <div class="info-blocks-in">
+                        <h3>New title comes here</h3>
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum animi..</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 info-blocks">
+                    <i class="fa fa-lightbulb-o icon-info-blocks"></i>
+                    <div class="info-blocks-in">
+                        <h3>New title comes here</h3>
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum animi..</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 info-blocks">
+                    <i class="fa fa-thumbs-o-up icon-info-blocks"></i>
+                    <div class="info-blocks-in">
+                        <h3>New title comes here</h3>
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum animi..</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About Me -->
+</div>
+<!--=== End About Me Img ===-->
